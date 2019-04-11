@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac0041d19acd60d10a5a05c9b7d94257",
+    "content-hash": "99ea17b9daba0a446fe7c5fa4b37d684",
     "packages": [
         {
             "name": "webignition/sfs-result-interfaces",
@@ -2658,6 +2658,106 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2019-04-04T09:56:43+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-factory",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-factory.git",
+                "reference": "3b2e7ee0d0b55763a1dba01665c2991c19cf94fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-factory/zipball/3b2e7ee0d0b55763a1dba01665c2991c19cf94fb",
+                "reference": "3b2e7ee0d0b55763a1dba01665c2991c19cf94fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "webignition/sfs-result-models": ">=0.4,<1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.5",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultFactory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "Factory to create result objects from api.stopforumspam.com responses",
+            "homepage": "https://github.com/webignition/sfs-result-factory",
+            "keywords": [
+                "factory",
+                "forum",
+                "result",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-11T14:08:58+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-models",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-models.git",
+                "reference": "08f4bb579c17015d4066dc627674bf6db9f0d9e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-models/zipball/08f4bb579c17015d4066dc627674bf6db9f0d9e6",
+                "reference": "08f4bb579c17015d4066dc627674bf6db9f0d9e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "webignition/sfs-result-interfaces": ">=0.5,<1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "phpstan/phpstan": "^0.11.5",
+                "phpstan/phpstan-mockery": "^0.11.0",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultModels\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "PHP models for results from querying api.stopforumspam.com",
+            "homepage": "https://github.com/webignition/sfs-result-models",
+            "keywords": [
+                "forum",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-11T13:48:21+00:00"
         },
         {
             "name": "webmozart/assert",
