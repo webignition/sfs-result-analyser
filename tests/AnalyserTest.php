@@ -9,7 +9,7 @@ use webignition\SfsResultAnalyser\Analyser;
 use webignition\SfsResultFactory\ResultFactory;
 use webignition\SfsResultInterfaces\ResultInterface;
 
-class ClientTest extends TestCase
+class AnalyserTest extends TestCase
 {
     /**
      * @var Analyser
